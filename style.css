@@ -1,9 +1,14 @@
 body {
   font-style: normal;
   font-family: Helvetica;
+  background: -webkit-linear-gradient(to right top, rgb(66,66,99), rgb(10,10,20), #000000);
+  background: -moz-linear-gradient(to right top, rgb(66,66,99), rgb(10,10,20), #000000);
+  background: -ms-linear-gradient(to right top, rgb(66,66,99), rgb(10,10,20), #000000);
+  background: -o-linear-gradient(to right top, rgb(66,66,99), rgb(10,10,20), #000000);
   background: linear-gradient(to right top, rgb(66,66,99), rgb(10,10,20), #000000);
   background-color: #000000;
   color: #FFFFFF;
+
 
 
 }
