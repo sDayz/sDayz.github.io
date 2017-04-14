@@ -1,13 +1,16 @@
 <html>
 <head>
   <link rel = "stylesheet" type = "text/css" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel = "stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel = "stylesheet" type = "text/css" href = "style.css">
+
   <!-- <link rel = "shortcut icon" type = "image/png" href =""/> -->
   <script
 			  src="https://code.jquery.com/jquery-2.2.4.min.js"
 			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 			  crossorigin="anonymous"></script>
   <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <title>
     Under Construction
   </title>
@@ -27,8 +30,82 @@
   </div>
   <!-- End Loading Screen -->
 
+  <!-- Main Page -->
   <div id = "main">
-  UNDER CONSTRUCTION</div>
+  <!-- Top Section, Navigator Menu -->
+    <div class = "container-fluid">
+      <nav id="topMenu" class="navbar navbar-fixed-top navbar-default"> <!-- navbar-light will have previous color -->
+        <div class = "navbar-header">
+
+          <!-- Toggle for dropdown menu in navigation bar -->
+          <button id="navbutton" type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#myNavbar" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class = "navbar-brand">
+            <!-- placeholder for right now -->
+            <img src="/insert logo" width="30" height="30" alt="">
+          </a>
+        </div>
+
+        <!-- Dropdown menu content -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li color="inherit"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <div id = "dropdownitems">
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Portfolio</a></li>
+                </div>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+      <!-- Main Section, Content -->
+      <div id = "body" class = "row content text-center">
+        <p>UNDER CONSTRUCTION</p>
+        <section id="about" class="row main">
+        <div class = "col-xs-9">
+        <p1>Hi! I code, take pictures, and play with data.</p1>
+        <br>
+        <p2>Skills: Python, SQL, VBA, Tableau, HTML/CSS, Photoshop, Acrobat, typical MS Office</p2>
+        </div>
+        <div class = "col-xs-3" align-content="center">
+          will be replaced with a logo/picture
+        </div>
+        </section>
+
+
+      </div>
+
+
+
+
+      <footer class = "container-fluid text-center">
+        <!-- Footer Info Section -->
+        email:
+        </br>
+        <section id="contact" class="main">
+              <a class="icons-sm ins-ic" href="https://goo.gl/sxOlRV"><i class="fa fa-instagram"> </i></a>
+              <a class="icons-sm tw-ic" href="https://goo.gl/7jL2KL"><i class="fa fa-twitter-square"> </i></a>
+              <a class="icons-sm git-ic" href="https://goo.gl/6gN7By"><i class="fa fa-github-square"> </i></a>
+              <a class="icons-sm fb-ic"><i class="fa fa-facebook-square" style="color:midnightblue"> </i></a>
+              <a class="icons-sm ln-ic"><i class="fa fa-linkedin-square" style="color:midnightblue"> </i></a>
+
+        </section>
+        <p>Created on 03/11/2017</p>
+      </footer>
+    </div>
+  </div>
 
 
 
