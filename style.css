@@ -157,6 +157,10 @@ p {
 .navbar-header {
   background-color: rgba(0,0,0,0.7);
 }
+.navbar-default .navbar-nav > li > a {
+  color:#337ab7;
+}
+
 
 #menutext {
   color: inherit;
