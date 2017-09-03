@@ -121,6 +121,7 @@ p {
 #main {
   display: none;
   color: inherit;
+  height: 100%;
 }
 /*===============================
   END PRELOADING
@@ -161,7 +162,6 @@ p {
   color:#337ab7;
 }
 
-
 #menutext {
   color: inherit;
 }
@@ -189,7 +189,6 @@ p {
 }
 
 footer {
-  position: absolute;
   bottom: 0px;
   height: 30px;
   align-self: center;
@@ -200,6 +199,12 @@ footer {
   border-color: #FFFFFF;
   /*padding: 15px;*/
 }
+
+.bottom-section {
+  position: absolute;
+  width: 100%;
+}
+
 
 #topMenu {
   position:fixed;
