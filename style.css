@@ -177,7 +177,7 @@ p {
 .dropdown-menu {
   font-family: inherit;
   font-size: inherit;
-  text-align:inherit;
+  text-align:center;
   line-height: 16pt;
   color: inherit;
   background-color: rgba(0,0,0,0.4);
@@ -191,6 +191,7 @@ p {
 footer {
   bottom: 0px;
   height: 30px;
+  position: fixed;
   align-self: center;
   background-color: #000000;
   color: #FFFFFF;
@@ -216,6 +217,16 @@ footer {
   background-color: rgba(0,0,0,0.7);
 }
 
+#title {
+  font-size: 20px;
+  text-align: center;
+  color: inherit;
+  font-style: bold;
+  font: Helvetica;
+
+}
+
+
 #body {
    padding:50px;
    padding-bottom:50px;   /* Height of the footer */
@@ -225,9 +236,22 @@ footer {
 #contact {
   font-size:24px;
   color: #FFFFFF;
+  /* align: center; */
+  /* position:fixed; */
+  /* bottom: 0px; */
 }
 
 #about {
   border: 1px solid;
   text-align: left;
+}
+
+#portfolio {
+  text-align: left;
+  border: 1px solid;
+  border-color: #FFFFFF;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
