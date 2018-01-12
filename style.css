@@ -137,11 +137,15 @@ p {
   position:static;
   text-align: center;
   height: auto;
-  font-size: 10px;
+  font-size: 18px;
   color: inherit;
+  padding-bottom: 350px;
   /*border: 1px solid #FFFFFF;*/
   @include make-container();
 }
+/* .container-fluid::after{
+  padding-bottom: 350px;
+} */
 
 .row.content {height: 500px;}
 /*.col-md-2*/
@@ -161,6 +165,13 @@ p {
 .navbar-default .navbar-nav > li > a {
   color:#337ab7;
 }
+.navbar-brand{
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
 
 #menutext {
   color: inherit;
@@ -178,7 +189,7 @@ p {
   font-family: inherit;
   font-size: inherit;
   text-align:center;
-  line-height: 16pt;
+  line-height: 20pt;
   color: inherit;
   background-color: rgba(0,0,0,0.4);
 }
@@ -188,24 +199,17 @@ p {
   background-color: inherit;
 }
 
-footer {
-  bottom: 0px;
-  height: 30px;
-  position: fixed;
-  align-self: center;
-  background-color: #000000;
-  color: #FFFFFF;
-  font-size: 8px;
-  border: 1px solid;
-  border-color: #FFFFFF;
-  /*padding: 15px;*/
-}
 
 .bottom-section {
   position: absolute;
   width: 100%;
 }
-
+.divider{
+  display: block;
+  width: 60px;
+  height: 5px;
+  margin: 1em auto;
+}
 
 #topMenu {
   position:fixed;
@@ -218,7 +222,7 @@ footer {
 }
 
 #title {
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
   color: inherit;
   font-style: bold;
@@ -230,20 +234,21 @@ footer {
 #body {
    padding:50px;
    padding-bottom:50px;   /* Height of the footer */
-   font-size: 14px;
-}
-
-#contact {
-  font-size:24px;
-  color: #FFFFFF;
-  /* align: center; */
-  /* position:fixed; */
-  /* bottom: 0px; */
+   font-size: 18px;
 }
 
 #about {
   border: 1px solid;
   text-align: left;
+}
+
+#projects {
+  border: 1px solid;
+  border-color: #FFFFFF;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #portfolio {
@@ -254,4 +259,21 @@ footer {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+}
+
+#contact {
+  color: #FFFFFF;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  position:fixed;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-size: 12px;
+  border: 1px solid;
+  border-color: #FFFFFF;
+}
+
+#contact_icon {
+  font-size: 30;
 }

@@ -11,24 +11,18 @@
 			  crossorigin="anonymous"></script>
   <script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <title>
-    Under Construction
-  </title>
 </head>
 
-<body>
-<!-- <div class ="section1"> helloooo </div> -->
-<!-- <button class="btn btn-primary"> click me</button> -->
 
+<body>
   <!-- Loading Screen -->
   <div id= "loader-wrapper">
     <div id = "loader">
     <div id = "loader-text">
       Loading...
-    </div>
-    </div>
-  </div>
+  </div></div></div>
   <!-- End Loading Screen -->
+
 
   <!-- Main Page -->
   <div id = "main">
@@ -36,7 +30,6 @@
     <div class = "container-fluid">
       <nav id="topMenu" class="navbar navbar-fixed-top navbar-default"> <!-- navbar-light will have previous color -->
         <div class = "navbar-header">
-
           <!-- Toggle for dropdown menu in navigation bar -->
           <button id="navbutton" type = "button" class = "navbar-toggle collapsed" data-toggle = "collapse" data-target = "#myNavbar" aria-expanded="false">
             <span class="icon-bar"></span>
@@ -44,8 +37,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class = "navbar-brand">
-            <!-- placeholder for right now -->
-            <img src="img\logo.png" width="30" height="30" alt="">
+            <img src="img\logo.png" width="40" height="40" alt="">
           </a>
         </div>
 
@@ -60,14 +52,10 @@
                 <div id = "dropdownitems">
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                </div>
-              </ul>
-            </li>
+            </div></ul></li>
             <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
+        </ul></div>
       </nav>
-
 
 
       <!-- Main Section, Content -->
@@ -76,68 +64,67 @@
 
         <div id = "title"> About Me </div>
         <section id="about" class="row main">
-        <div class = "col-sm-9">
-            <div>Hi! I code, take pictures, and play with data.</div>
-            <br>
-            <div style="list-style-type:circle">Skills:
-            <li> Language: Python, SQL, R, VBA, HTML/CSS</li>
-            <li> Software: Tableau, Photoshop, Acrobat, typical MS Office</div>
-            <div style="list-style-type:circle">Education:
-            <li>BA: Business Econ</li>
-            <li>MS: Data Science</li></div>
-        </div>
-        <div class = "col-sm-3">
-          will be replaced with a logo/picture
-        </div>
+          <div class = "col-sm-9">
+              <div>Hi! I code, take pictures, and play with data.</div>
+              <br>
+              <div style="list-style-type:circle">Skills:
+              <li> Language: Python, SQL, R, VBA, HTML/CSS</li>
+              <li> Software: Tableau, Photoshop, Acrobat, typical MS Office</div>
+              <div style="list-style-type:circle">Education:
+              <li>BA: Business Econ</li>
+              <li>MS: Data Science</li></div>
+          </div>
+          <div class = "col-sm-3">
+            will be replaced with a logo/picture
+          </div>
         </section>
 
         <br>
 
         <div id = "title"> Projects </div>
-        <section id="projects">
-
+        <section id="projects" class="row main">
+          <div class = "divider"></div>
+          <div class = "divider"></div>
+          <div class = "divider"></div>
         </section>
 
         <br>
-
 
         <div id = "title"> Portfolio </div>
-        <section id="portfolio" class="row">
+        <section id="portfolio" class="row main">
         <div style="list-style-type:circle">Specs:
           <li>Camera: Sony A6500</li>
-          <li>Lens: Rokinon 12mm, EF/EF-S to E Mount Adapter </li>
-        </div>
+          <li>Lens:<ul>
+            <li>12mm f/2.0</li>
+            <li>50mm f/1.8</li>
+            <li>10-18mm f/4.5-5.6</li>
+            <li>17-50mm f/2.8</li>
+        </ul></li></div>
+
         <br>
+
         <div> Will add photography portfolio later</div>
         </section>
-
       </div>
-
-
-
-
     </div>
-    <footer class = "bottom-section container-fluid text-center">
-      <!-- Footer Info Section -->
-      email:
-    </br>
-    <section id="contact" class="main">
-      <a class="icons-sm ins-ic" href="https://goo.gl/sxOlRV"><i class="fa fa-instagram"> </i></a>
-      <a class="icons-sm tw-ic" href="https://goo.gl/7jL2KL"><i class="fa fa-twitter-square"> </i></a>
-      <a class="icons-sm git-ic" href="https://goo.gl/6gN7By"><i class="fa fa-github-square"> </i></a>
-      <a class="icons-sm fb-ic"><i class="fa fa-facebook-square" style="color:midnightblue"> </i></a>
-      <a class="icons-sm ln-ic"><i class="fa fa-linkedin-square" style="color:midnightblue"> </i></a>
 
-    </section>
-    <p>Created on 03/11/2017</p>
-  </footer>
+
+      <section id="contact" class="text-center">
+        Email:
+      </br>
+        <div id = "contact_icon">
+        <a class="icons-sm ins-ic" href="https://goo.gl/sxOlRV"><i class="fa fa-instagram"> </i></a>
+        <a class="icons-sm tw-ic" href="https://goo.gl/7jL2KL"><i class="fa fa-twitter-square"> </i></a>
+        <a class="icons-sm git-ic" href="https://goo.gl/6gN7By"><i class="fa fa-github-square"> </i></a>
+        <a class="icons-sm fb-ic"><i class="fa fa-facebook-square" style="color:midnightblue"> </i></a>
+        <a class="icons-sm ln-ic"><i class="fa fa-linkedin-square" style="color:midnightblue"> </i></a>
+        </div>
+        Created on 03/11/2017
+      </section>
   </div>
 
 
 
 
-
-
 <script src = "index.js"> </script>
-</body>
-</html>
+</body></html>
